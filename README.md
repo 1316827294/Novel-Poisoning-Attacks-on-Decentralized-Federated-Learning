@@ -10,6 +10,7 @@ keyword:poisoning attack
 【5】https://ojs.aaai.org/index.php/AAAI/article/view/26083
 【6】https://ieeexplore.ieee.org/document/10327979
 main【7】https://dl.acm.org/doi/10.1145/3534678.3539119
+main【8】https://dl.acm.org/doi/abs/10.1609/aaai.v37i4.25611
 
 Defending：
 【1】https://ojs.aaai.org/index.php/AAAI/article/view/26271
