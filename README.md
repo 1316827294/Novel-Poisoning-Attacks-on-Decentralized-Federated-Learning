@@ -23,7 +23,4 @@ ideas:
 
 
 baseline:
-【1】https://github.com/aks2203/poisoning-benchmark?tab=readme-ov-file
-【2】https://github.com/vrt1shjwlkr/NDSS21-Model-Poisoning
-【3】https://github.com/Eyr3/FLTracer
-【4】https://github.com/kaiwenzha/contrastive-poisoning
+【1】https://github.com/Jenson66/Poisoning-Attack-on-FL/tree/main
