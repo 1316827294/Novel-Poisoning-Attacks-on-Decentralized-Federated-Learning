@@ -24,4 +24,5 @@ ideas:
 
 baseline:
 【1】https://github.com/Jenson66/Poisoning-Attack-on-FL/tree/main
-【2】https://github.com/vrt1shjwlkr/NDSS21-Model-Poisoning/tree/main
+【2】https://github.com/vrt1shjwlkr/NDSS21-Model-Poisoning/tree/main这个点结果有点假
+[3]https://github.com/lishenghui/blades/tree/master这个也可以跑出结果来
