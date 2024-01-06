@@ -26,3 +26,39 @@ baseline:
 【1】https://github.com/Jenson66/Poisoning-Attack-on-FL/tree/main
 【2】https://github.com/vrt1shjwlkr/NDSS21-Model-Poisoning/tree/main这个点结果有点假
 [3]https://github.com/lishenghui/blades/tree/master这个也可以跑出结果来
+
+
+def our_attack_mkrum(all_updates, model_re, n_attackers, dev_type='unit_vec'):
+    # all_updates是需要攻击的训练后的梯度
+    # model_re是计算需要攻击的用户提交的梯度更新的平均值。
+    # n_attackers是2
+    if dev_type == 'unit_vec':
+        deviation = model_re / torch.norm(model_re)
+    elif dev_type == 'sign':
+        deviation = torch.sign(model_re)
+    elif dev_type == 'std':
+        deviation = torch.std(all_updates, 0)#所有用户更新的标准偏差。标准偏差可以帮助识别数据中的异常模式，从而在联邦学习中采取相应的防御措施。
+
+    lamda = torch.Tensor([3.0]).cuda()
+
+    threshold_diff = 1e-5
+    lamda_fail = lamda
+    lamda_succ = 0
+
+    while torch.abs(lamda_succ - lamda) > threshold_diff:
+        mal_update = (model_re - lamda * deviation)
+        mal_updates = torch.stack([mal_update] * n_attackers)
+        mal_updates = torch.cat((mal_updates, all_updates), 0)
+
+        agg_grads, krum_candidate = multi_krum(mal_updates, n_attackers, multi_k=True)
+        if np.sum(krum_candidate < n_attackers) == n_attackers:
+            # print('successful lamda is ', lamda)
+            lamda_succ = lamda
+            lamda = lamda + lamda_fail / 2
+        else:
+            lamda = lamda - lamda_fail / 2
+
+        lamda_fail = lamda_fail / 2
+
+    mal_update = (model_re - lamda_succ * deviation)
+    return mal_update
