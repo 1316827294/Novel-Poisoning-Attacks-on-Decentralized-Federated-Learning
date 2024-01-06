@@ -28,37 +28,29 @@ baseline:
 [3]https://github.com/lishenghui/blades/tree/master这个也可以跑出结果来
 
 
-def our_attack_mkrum(all_updates, model_re, n_attackers, dev_type='unit_vec'):
-    # all_updates是需要攻击的训练后的梯度
-    # model_re是计算需要攻击的用户提交的梯度更新的平均值。
-    # n_attackers是2
+def our_attack_descent(all_updates, model_re, n_attackers, dev_type='unit_vec', learning_rate=0.01, threshold_diff=1e-5):
     if dev_type == 'unit_vec':
         deviation = model_re / torch.norm(model_re)
     elif dev_type == 'sign':
         deviation = torch.sign(model_re)
     elif dev_type == 'std':
-        deviation = torch.std(all_updates, 0)#所有用户更新的标准偏差。标准偏差可以帮助识别数据中的异常模式，从而在联邦学习中采取相应的防御措施。
+        deviation = torch.std(all_updates, 0)
 
-    lamda = torch.Tensor([3.0]).cuda()
+    lamda = torch.tensor([10.0]).float().cuda()
 
-    threshold_diff = 1e-5
-    lamda_fail = lamda
-    lamda_succ = 0
-
-    while torch.abs(lamda_succ - lamda) > threshold_diff:
+    while True:
         mal_update = (model_re - lamda * deviation)
-        mal_updates = torch.stack([mal_update] * n_attackers)
-        mal_updates = torch.cat((mal_updates, all_updates), 0)
 
-        agg_grads, krum_candidate = multi_krum(mal_updates, n_attackers, multi_k=True)
-        if np.sum(krum_candidate < n_attackers) == n_attackers:
-            # print('successful lamda is ', lamda)
-            lamda_succ = lamda
-            lamda = lamda + lamda_fail / 2
-        else:
-            lamda = lamda - lamda_fail / 2
+        # 使用 all_updates 的中位数来更新 lamda
+        median_val = torch.median(all_updates)
+        lamda = lamda*0.5 - learning_rate * (lamda - median_val)
+        # lamda *= 0.5
+        # 计算更新后的损失，这里仍然使用 MSE
+        loss = F.mse_loss(all_updates, mal_update.unsqueeze(0).expand_as(all_updates))
 
-        lamda_fail = lamda_fail / 2
+        if loss.item() < threshold_diff:
+            break
+        
 
-    mal_update = (model_re - lamda_succ * deviation)
-    return mal_update
+    mal_update = (model_re - lamda * deviation)
+    return mal_update.detach()
