@@ -28,6 +28,8 @@ baseline:
 [3]https://github.com/lishenghui/blades/tree/master这个也可以跑出结果来
 
 
+最像我们的工作：https://github.com/harshkasyap/FL-Hyperdeimensional-PoisoningAttack/blob/main/libs/sim.py对应的论文https://ieeexplore.ieee.org/document/9751167/metrics#metrics
+
 def our_attack_descent(all_updates, model_re, n_attackers, dev_type='unit_vec', learning_rate=0.01, threshold_diff=1e-5):
     if dev_type == 'unit_vec':
         deviation = model_re / torch.norm(model_re)
