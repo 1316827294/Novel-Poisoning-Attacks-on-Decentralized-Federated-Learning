@@ -33,90 +33,25 @@ def our_attack_hessanangle(all_updates, model_re, n_attackers, dev_type='unit_ve
     mal_update = model_re - lamda_succ * deviation
 
     return mal_update
-            aggregation                    at_type  n_attacker  \
-0          +++++Bulyan:  Shejwalkar_attack_min_max          10   
-1          +++++Bulyan:  Shejwalkar_attack_min_sum          10   
-2          +++++Bulyan:     our_attack_hessanangle          10   
-3          +++++FedAvg:  Shejwalkar_attack_min_max          10   
-4          +++++FedAvg:  Shejwalkar_attack_min_sum          10   
-5          +++++FedAvg:     our_attack_hessanangle          10   
-6          +++++Median:  Shejwalkar_attack_min_max          10   
-7          +++++Median:  Shejwalkar_attack_min_sum          10   
-8          +++++Median:     our_attack_hessanangle          10   
-9      +++++Multi_krum:  Shejwalkar_attack_min_max          10   
-10     +++++Multi_krum:  Shejwalkar_attack_min_sum          10   
-11     +++++Multi_krum:     our_attack_hessanangle          10   
-12  +++++Norm_bounding:  Shejwalkar_attack_min_max          10   
-13  +++++Norm_bounding:  Shejwalkar_attack_min_sum          10   
-14  +++++Norm_bounding:     our_attack_hessanangle          10   
-15           +++++krum:  Shejwalkar_attack_min_max          10   
-16           +++++krum:  Shejwalkar_attack_min_sum          10   
-17           +++++krum:     our_attack_hessanangle          10   
-18        +++++tr_mean:  Shejwalkar_attack_min_max          10   
-19        +++++tr_mean:  Shejwalkar_attack_min_sum          10   
-20        +++++tr_mean:     our_attack_hessanangle          10   
-21              Bulyan:  Shejwalkar_attack_min_max          10   
-22              Bulyan:  Shejwalkar_attack_min_sum          10   
-23              Bulyan:     our_attack_hessanangle          10   
-24              FedAvg:  Shejwalkar_attack_min_max          10   
-25              FedAvg:  Shejwalkar_attack_min_sum          10   
-26              FedAvg:     our_attack_hessanangle          10   
-27              Median:  Shejwalkar_attack_min_max          10   
-28              Median:  Shejwalkar_attack_min_sum          10   
-29              Median:     our_attack_hessanangle          10   
-30          Multi_krum:  Shejwalkar_attack_min_max          10   
-31          Multi_krum:  Shejwalkar_attack_min_sum          10   
-32          Multi_krum:     our_attack_hessanangle          10   
-33       Norm_bounding:  Shejwalkar_attack_min_max          10   
-34       Norm_bounding:  Shejwalkar_attack_min_sum          10   
-35       Norm_bounding:     our_attack_hessanangle          10   
-36                krum:  Shejwalkar_attack_min_max          10   
-37                krum:  Shejwalkar_attack_min_sum          10   
-38                krum:     our_attack_hessanangle          10   
-39             tr_mean:  Shejwalkar_attack_min_max          10   
-40             tr_mean:  Shejwalkar_attack_min_sum          10   
-41             tr_mean:     our_attack_hessanangle          10   
-
-    best_global_acc  
-0         25.974026  
-1         23.275162  
-2         31.148539  
-3         44.399351  
-4         54.951299  
-5         21.367695  
-6         27.475649  
-7         31.919643  
-8         29.687500  
-9         30.012175  
-10        35.227273  
-11        31.939935  
-12        34.841721  
-13        50.913149  
-14        30.681818  
-15        42.167208  
-16        25.365260  
-17        39.163961  
-18        31.168831  
-19        44.663149  
-20        30.255682  
-21        25.974026  
-22        23.275162  
-23        31.148539  
-24        44.399351  
-25        54.951299  
-26        21.367695  
-27        27.475649  
-28        31.919643  
-29        29.687500  
-30        30.012175  
-31        35.227273  
-32        31.939935  
-33        34.841721  
-34        50.913149  
-35        30.681818  
-36        42.167208  
-37        25.365260  
-38        39.163961  
-39        31.168831  
-40        44.663149  
-41        30.255682  
+       aggregation                    at_type  n_attacker  best_global_acc
+0          Bulyan:  Shejwalkar_attack_min_max          10        25.974026
+1          Bulyan:  Shejwalkar_attack_min_sum          10        23.275162
+2          Bulyan:     our_attack_hessanangle          10        31.148539
+3          FedAvg:  Shejwalkar_attack_min_max          10        44.399351
+4          FedAvg:  Shejwalkar_attack_min_sum          10        54.951299
+5          FedAvg:     our_attack_hessanangle          10        21.367695
+6          Median:  Shejwalkar_attack_min_max          10        27.475649
+7          Median:  Shejwalkar_attack_min_sum          10        31.919643
+8          Median:     our_attack_hessanangle          10        29.687500
+9      Multi_krum:  Shejwalkar_attack_min_max          10        30.012175
+10     Multi_krum:  Shejwalkar_attack_min_sum          10        35.227273
+11     Multi_krum:     our_attack_hessanangle          10        31.939935
+12  Norm_bounding:  Shejwalkar_attack_min_max          10        34.841721
+13  Norm_bounding:  Shejwalkar_attack_min_sum          10        50.913149
+14  Norm_bounding:     our_attack_hessanangle          10        30.681818
+15           krum:  Shejwalkar_attack_min_max          10        42.167208
+16           krum:  Shejwalkar_attack_min_sum          10        25.365260
+17           krum:     our_attack_hessanangle          10        39.163961
+18        tr_mean:  Shejwalkar_attack_min_max          10        31.168831
+19        tr_mean:  Shejwalkar_attack_min_sum          10        44.663149
+20        tr_mean:     our_attack_hessanangle          10        30.255682
