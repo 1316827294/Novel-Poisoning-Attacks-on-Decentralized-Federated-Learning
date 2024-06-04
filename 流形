@@ -1,0 +1,67 @@
+def our_attack_hessanangle_mean(all_updates, model_re, n_attackers, dev_type='unit_vec'):
+    if dev_type == 'unit_vec':
+        deviation = model_re / torch.norm(model_re)  # unit vector, direction opposite to good direction
+    elif dev_type == 'sign':
+        deviation = torch.sign(model_re)
+    elif dev_type == 'std':
+        deviation = torch.std(all_updates, 0)
+
+    lamda = torch.Tensor([10.0]).float().cuda()
+    threshold_diff = 1e-5
+    lamda_fail = lamda
+    lamda_succ = 0
+    mean_vector = torch.mean(all_updates, dim=0)
+    #fim_diag_mean = mean_vector.pow(2)
+    fim_diag_mean = (1/(mean_vector.pow(2)+1e-15))*mean_vector
+    app=[]
+    # global pred_fim_list
+    # if pred_fim_list is None:
+    fim_list = []
+    for data_e in all_updates:
+        fim_diag_approx = data_e.pow(2)
+        fim_list.append(fim_diag_approx)
+        new= (1/(data_e.pow(2)+1e-15))*data_e
+        target_angle = calculate_cos_angle(new, fim_diag_mean)
+
+        app.append(target_angle)
+    fim_list = torch.stack(fim_list).cuda()
+    pred_fim_list = fim_list
+    # else:
+    #     fim_list = pred_fim_list.clone()  # 使用 clone() 避免直接修改 pred_fim_list
+    #     for i, data_e in enumerate(all_updates):
+    #         fim_diag_approx = data_e.pow(2)
+    #         fim_list[i] = (fim_list[i] + fim_diag_approx) / 2
+    #     fim_list = fim_list.cuda()
+    #     pred_fim_list = fim_list
+
+    fim_diag_mean = torch.mean(pred_fim_list,dim=0)
+    fim_diag_mean_inv = 1.0/(fim_diag_mean+1e-15)
+    scale_factor = torch.sqrt(1.0 / (mean_vector @ (fim_diag_mean_inv * mean_vector)))
+    #model_re = model_re + scale_factor*mean_vector# * fim_diag_mean_inv * mean_vector
+    norm_tangent_fisher = torch.norm(fim_diag_mean)
+    direction = fim_diag_mean / norm_tangent_fisher
+    value = scale_factor#0.01 * norm_tangent_fisher
+    model_re =  torch.cos(value*norm_tangent_fisher) * mean_vector +torch.sin(value*norm_tangent_fisher) * direction
+    # model_re = model_re + scale_factor * fim_diag_mean_inv * mean_vector
+
+    #target_angles = [calculate_cos_angle(update, mean_vector) for update in all_updates]
+    #target_angle = max(target_angles)
+    #target_angle = min(app)
+    target_angle = calculate_cos_angle(all_updates[app.index(min(app))], mean_vector)
+    while torch.abs(lamda_succ - lamda) > threshold_diff:
+        mal_update = model_re - lamda *deviation
+        #fim_diag_approx = mal_update.pow(2)
+        current_angle = calculate_cos_angle(mal_update, mean_vector)
+        if current_angle > (target_angle):
+            lamda_succ = lamda.clone()
+            #print(lamda_succ)
+            lamda = lamda + lamda_fail / 2
+        else:
+            lamda = lamda - lamda_fail / 2
+
+        lamda_fail = lamda_fail / 2
+    mal_update = model_re - lamda_succ  *deviation
+    del model_re,mean_vector,fim_diag_mean_inv
+    return mal_update
+
+123流形10个节点：krum26.481331，Multi_krum30.154221，Bulyan22.706981，Median39.975649，tr_mean38.656656，FedAvg48.315747，Norm_bounding50.324675
