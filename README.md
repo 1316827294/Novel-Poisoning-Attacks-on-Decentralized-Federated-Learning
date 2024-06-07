@@ -24,8 +24,8 @@ ideas:
 
 baseline:
 【1】https://github.com/Jenson66/Poisoning-Attack-on-FL/tree/main
-【2】https://github.com/vrt1shjwlkr/NDSS21-Model-Poisoning/tree/main这个点结果有点假
-[3]https://github.com/lishenghui/blades/tree/master这个也可以跑出结果来
+【2】https://github.com/vrt1shjwlkr/NDSS21-Model-Poisoning/tree/main 这个点结果有点假
+[3]https://github.com/lishenghui/blades/tree/master 这个也可以跑出结果来
 
 
 最像我们的工作：https://github.com/harshkasyap/FL-Hyperdeimensional-PoisoningAttack/blob/main/libs/sim.py对应的论文https://ieeexplore.ieee.org/document/9751167/metrics#metrics
