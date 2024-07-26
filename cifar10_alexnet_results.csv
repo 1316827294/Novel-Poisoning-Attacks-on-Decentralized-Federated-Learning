@@ -1,0 +1,22 @@
+Attack Type,Defense,seed,start_num,Number of Attackers,Best Global Accuracy,epoch_num
+our_attack_hessanangle_mean_liu,Bulyan,123,0,5,54.09902597402598,1201
+our_attack_hessanangle_mean_liu,Bulyan,123,0,10,26.400162337662337,1201
+our_attack_hessanangle_mean_liu,Bulyan,123,0,15,19.460227272727273,257
+our_attack_hessanangle_mean_liu,FedAvg,123,0,5,55.60064935064935,1201
+our_attack_hessanangle_mean_liu,FedAvg,123,0,10,32.24431818181818,252
+our_attack_hessanangle_mean_liu,FedAvg,123,0,15,20.921266233766232,198
+our_attack_hessanangle_mean_liu,Median,123,0,5,49.00568181818182,1201
+our_attack_hessanangle_mean_liu,Median,123,0,10,27.881493506493506,1201
+our_attack_hessanangle_mean_liu,Median,123,0,15,20.961850649350648,1201
+our_attack_hessanangle_mean_liu,Multi_krum,123,0,5,57.91396103896104,987
+our_attack_hessanangle_mean_liu,Multi_krum,123,0,10,36.728896103896105,1201
+our_attack_hessanangle_mean_liu,Multi_krum,123,0,15,20.292207792207794,88
+our_attack_hessanangle_mean_liu,Norm_bounding,123,0,5,62.804383116883116,1201
+our_attack_hessanangle_mean_liu,Norm_bounding,123,0,10,37.54058441558441,1201
+our_attack_hessanangle_mean_liu,Norm_bounding,123,0,15,20.353084415584416,1201
+our_attack_hessanangle_mean_liu,krum,123,0,5,46.85470779220779,894
+our_attack_hessanangle_mean_liu,krum,123,0,10,33.42126623376623,772
+our_attack_hessanangle_mean_liu,krum,123,0,15,21.854707792207794,1201
+our_attack_hessanangle_mean_liu,tr_mean,123,0,5,60.166396103896105,1201
+our_attack_hessanangle_mean_liu,tr_mean,123,0,10,37.5,1201
+our_attack_hessanangle_mean_liu,tr_mean,123,0,15,19.987824675324674,1201

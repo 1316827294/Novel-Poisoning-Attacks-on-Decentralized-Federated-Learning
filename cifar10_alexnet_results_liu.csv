@@ -1,0 +1,8 @@
+Attack Type,Defense,seed,start_num,Number of Attackers,Best Global Accuracy,epoch_num
+our_attack_hessanangle_mean,Bulyan,123,0,10,22.70698051948052,870
+our_attack_hessanangle_mean,FedAvg,123,0,10,48.315746753246756,1201
+our_attack_hessanangle_mean,Median,123,0,10,39.97564935064935,1201
+our_attack_hessanangle_mean,Multi_krum,123,0,10,30.15422077922078,393
+our_attack_hessanangle_mean,Norm_bounding,123,0,10,50.324675324675326,920
+our_attack_hessanangle_mean,krum,123,0,10,26.48133116883117,611
+our_attack_hessanangle_mean,tr_mean,123,0,10,38.65665584415584,808

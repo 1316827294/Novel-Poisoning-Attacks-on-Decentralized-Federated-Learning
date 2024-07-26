@@ -1,0 +1,697 @@
+nohup: ignoring input
+now use seed: 123
+Files already downloaded and verified
+Files already downloaded and verified
+total data len:  60000
+total data len:  60000
+total tr len 50000 | val len 5000 | test len 5000
+user 0 tr len 1000
+user 1 tr len 1000
+user 2 tr len 1000
+user 3 tr len 1000
+user 4 tr len 1000
+user 5 tr len 1000
+user 6 tr len 1000
+user 7 tr len 1000
+user 8 tr len 1000
+user 9 tr len 1000
+user 10 tr len 1000
+user 11 tr len 1000
+user 12 tr len 1000
+user 13 tr len 1000
+user 14 tr len 1000
+user 15 tr len 1000
+user 16 tr len 1000
+user 17 tr len 1000
+user 18 tr len 1000
+user 19 tr len 1000
+user 20 tr len 1000
+user 21 tr len 1000
+user 22 tr len 1000
+user 23 tr len 1000
+user 24 tr len 1000
+user 25 tr len 1000
+user 26 tr len 1000
+user 27 tr len 1000
+user 28 tr len 1000
+user 29 tr len 1000
+user 30 tr len 1000
+user 31 tr len 1000
+user 32 tr len 1000
+user 33 tr len 1000
+user 34 tr len 1000
+user 35 tr len 1000
+user 36 tr len 1000
+user 37 tr len 1000
+user 38 tr len 1000
+user 39 tr len 1000
+user 40 tr len 1000
+user 41 tr len 1000
+user 42 tr len 1000
+user 43 tr len 1000
+user 44 tr len 1000
+user 45 tr len 1000
+user 46 tr len 1000
+user 47 tr len 1000
+user 48 tr len 1000
+user 49 tr len 1000
+/home/yunlong/NDSS21-Model-Poisoning/cifar10/sgd.py:109: UserWarning: This overload of add_ is deprecated:
+	add_(Number alpha, Tensor other)
+Consider using one of the following signatures instead:
+	add_(Tensor other, *, Number alpha) (Triggered internally at ../torch/csrc/utils/python_arg_parser.cpp:1630.)
+  p.data.add_(-group['lr'], d_p)
+Multi_krum: at our_attack_hessanangle_mean n_at 10 n_mal_sel 8 e 0 | val loss 2.3031 val acc 9.3750 best val_acc 9.375000
+Multi_krum: at our_attack_hessanangle_mean n_at 10 n_mal_sel 4 e 25 | val loss 2.2821 val acc 9.7403 best val_acc 18.668831
+Multi_krum: at our_attack_hessanangle_mean n_at 10 n_mal_sel 8 e 50 | val loss 2.2034 val acc 19.9067 best val_acc 19.906656
+Multi_krum: at our_attack_hessanangle_mean n_at 10 n_mal_sel 8 e 75 | val loss 2.6425 val acc 10.0649 best val_acc 23.660714
+Multi_krum: at our_attack_hessanangle_mean n_at 10 n_mal_sel 10 e 100 | val loss 2.2532 val acc 18.2224 best val_acc 25.446429
+Multi_krum: at our_attack_hessanangle_mean n_at 10 n_mal_sel 9 e 125 | val loss 2.2545 val acc 12.7435 best val_acc 25.446429
+Multi_krum: at our_attack_hessanangle_mean n_at 10 n_mal_sel 8 e 150 | val loss 2.3294 val acc 10.7346 best val_acc 25.446429
+Multi_krum: at our_attack_hessanangle_mean n_at 10 n_mal_sel 10 e 175 | val loss 2.0301 val acc 22.4432 best val_acc 26.745130
+Multi_krum: at our_attack_hessanangle_mean n_at 10 n_mal_sel 8 e 200 | val loss 2.0999 val acc 19.5211 best val_acc 27.759740
+Multi_krum: at our_attack_hessanangle_mean n_at 10 n_mal_sel 7 e 225 | val loss 1.9794 val acc 28.6120 best val_acc 29.545455
+Multi_krum: at our_attack_hessanangle_mean n_at 10 n_mal_sel 9 e 250 | val loss 1.9129 val acc 29.0990 best val_acc 29.646916
+Multi_krum: at our_attack_hessanangle_mean n_at 10 n_mal_sel 10 e 275 | val loss 2.1252 val acc 20.1502 best val_acc 29.646916
+Multi_krum: at our_attack_hessanangle_mean n_at 10 n_mal_sel 8 e 300 | val loss 2.1673 val acc 17.7557 best val_acc 29.646916
+Multi_krum: at our_attack_hessanangle_mean n_at 10 n_mal_sel 10 e 325 | val loss 1.9791 val acc 27.3945 best val_acc 29.646916
+Multi_krum: at our_attack_hessanangle_mean n_at 10 n_mal_sel 9 e 350 | val loss 2.1893 val acc 17.4107 best val_acc 30.093344
+Multi_krum: at our_attack_hessanangle_mean n_at 10 n_mal_sel 10 e 375 | val loss 2.0833 val acc 20.5154 best val_acc 30.093344
+val loss 80493.275746 too high
+change new seed now epoch: 393
+now use seed: 123
+Files already downloaded and verified
+Files already downloaded and verified
+total data len:  60000
+total data len:  60000
+total tr len 50000 | val len 5000 | test len 5000
+user 0 tr len 1000
+user 1 tr len 1000
+user 2 tr len 1000
+user 3 tr len 1000
+user 4 tr len 1000
+user 5 tr len 1000
+user 6 tr len 1000
+user 7 tr len 1000
+user 8 tr len 1000
+user 9 tr len 1000
+user 10 tr len 1000
+user 11 tr len 1000
+user 12 tr len 1000
+user 13 tr len 1000
+user 14 tr len 1000
+user 15 tr len 1000
+user 16 tr len 1000
+user 17 tr len 1000
+user 18 tr len 1000
+user 19 tr len 1000
+user 20 tr len 1000
+user 21 tr len 1000
+user 22 tr len 1000
+user 23 tr len 1000
+user 24 tr len 1000
+user 25 tr len 1000
+user 26 tr len 1000
+user 27 tr len 1000
+user 28 tr len 1000
+user 29 tr len 1000
+user 30 tr len 1000
+user 31 tr len 1000
+user 32 tr len 1000
+user 33 tr len 1000
+user 34 tr len 1000
+user 35 tr len 1000
+user 36 tr len 1000
+user 37 tr len 1000
+user 38 tr len 1000
+user 39 tr len 1000
+user 40 tr len 1000
+user 41 tr len 1000
+user 42 tr len 1000
+user 43 tr len 1000
+user 44 tr len 1000
+user 45 tr len 1000
+user 46 tr len 1000
+user 47 tr len 1000
+user 48 tr len 1000
+user 49 tr len 1000
+/home/yunlong/NDSS21-Model-Poisoning/cifar10/sgd.py:109: UserWarning: This overload of add_ is deprecated:
+	add_(Number alpha, Tensor other)
+Consider using one of the following signatures instead:
+	add_(Tensor other, *, Number alpha) (Triggered internally at ../torch/csrc/utils/python_arg_parser.cpp:1630.)
+  p.data.add_(-group['lr'], d_p)
+krum: at our_attack_hessanangle_mean n_at 10 n_mal_sel 0 e 0 | val loss 2.3032 val acc 9.6185 best val_acc 9.618506
+krum: at our_attack_hessanangle_mean n_at 10 n_mal_sel 0 e 25 | val loss 2.2797 val acc 10.8969 best val_acc 19.845779
+krum: at our_attack_hessanangle_mean n_at 10 n_mal_sel 1 e 50 | val loss 2.3041 val acc 9.2938 best val_acc 22.382305
+krum: at our_attack_hessanangle_mean n_at 10 n_mal_sel 1 e 75 | val loss 2.3038 val acc 9.6794 best val_acc 22.382305
+krum: at our_attack_hessanangle_mean n_at 10 n_mal_sel 0 e 100 | val loss 2.2956 val acc 12.3580 best val_acc 22.382305
+krum: at our_attack_hessanangle_mean n_at 10 n_mal_sel 1 e 125 | val loss 2.2144 val acc 18.4862 best val_acc 22.382305
+krum: at our_attack_hessanangle_mean n_at 10 n_mal_sel 0 e 150 | val loss 2.0541 val acc 17.6542 best val_acc 22.382305
+krum: at our_attack_hessanangle_mean n_at 10 n_mal_sel 0 e 175 | val loss 2.2923 val acc 11.8101 best val_acc 22.382305
+krum: at our_attack_hessanangle_mean n_at 10 n_mal_sel 0 e 200 | val loss 2.3141 val acc 9.6185 best val_acc 22.382305
+krum: at our_attack_hessanangle_mean n_at 10 n_mal_sel 0 e 225 | val loss 2.0928 val acc 21.0227 best val_acc 22.382305
+krum: at our_attack_hessanangle_mean n_at 10 n_mal_sel 0 e 250 | val loss 2.2226 val acc 17.1063 best val_acc 24.025974
+krum: at our_attack_hessanangle_mean n_at 10 n_mal_sel 0 e 275 | val loss 2.1009 val acc 18.4253 best val_acc 24.492695
+krum: at our_attack_hessanangle_mean n_at 10 n_mal_sel 1 e 300 | val loss 2.2219 val acc 19.7849 best val_acc 24.492695
+krum: at our_attack_hessanangle_mean n_at 10 n_mal_sel 1 e 325 | val loss 2.3056 val acc 10.1867 best val_acc 24.492695
+krum: at our_attack_hessanangle_mean n_at 10 n_mal_sel 0 e 350 | val loss 2.2998 val acc 10.0041 best val_acc 24.492695
+krum: at our_attack_hessanangle_mean n_at 10 n_mal_sel 0 e 375 | val loss 2.1373 val acc 18.3239 best val_acc 24.492695
+krum: at our_attack_hessanangle_mean n_at 10 n_mal_sel 0 e 400 | val loss 2.1496 val acc 17.2281 best val_acc 24.492695
+krum: at our_attack_hessanangle_mean n_at 10 n_mal_sel 1 e 425 | val loss 2.3181 val acc 10.7549 best val_acc 24.492695
+krum: at our_attack_hessanangle_mean n_at 10 n_mal_sel 1 e 450 | val loss 2.0582 val acc 18.7703 best val_acc 24.492695
+krum: at our_attack_hessanangle_mean n_at 10 n_mal_sel 0 e 475 | val loss 2.3239 val acc 9.3547 best val_acc 25.243506
+krum: at our_attack_hessanangle_mean n_at 10 n_mal_sel 1 e 500 | val loss 2.2939 val acc 21.3677 best val_acc 25.243506
+krum: at our_attack_hessanangle_mean n_at 10 n_mal_sel 1 e 525 | val loss 2.1053 val acc 21.4286 best val_acc 25.243506
+krum: at our_attack_hessanangle_mean n_at 10 n_mal_sel 0 e 550 | val loss 2.1779 val acc 18.6891 best val_acc 25.243506
+krum: at our_attack_hessanangle_mean n_at 10 n_mal_sel 0 e 575 | val loss 2.1870 val acc 16.0917 best val_acc 25.243506
+krum: at our_attack_hessanangle_mean n_at 10 n_mal_sel 1 e 600 | val loss 1.9190 val acc 26.4813 best val_acc 26.481331
+val loss 188649.172687 too high
+change new seed now epoch: 611
+now use seed: 123
+Files already downloaded and verified
+Files already downloaded and verified
+total data len:  60000
+total data len:  60000
+total tr len 50000 | val len 5000 | test len 5000
+user 0 tr len 1000
+user 1 tr len 1000
+user 2 tr len 1000
+user 3 tr len 1000
+user 4 tr len 1000
+user 5 tr len 1000
+user 6 tr len 1000
+user 7 tr len 1000
+user 8 tr len 1000
+user 9 tr len 1000
+user 10 tr len 1000
+user 11 tr len 1000
+user 12 tr len 1000
+user 13 tr len 1000
+user 14 tr len 1000
+user 15 tr len 1000
+user 16 tr len 1000
+user 17 tr len 1000
+user 18 tr len 1000
+user 19 tr len 1000
+user 20 tr len 1000
+user 21 tr len 1000
+user 22 tr len 1000
+user 23 tr len 1000
+user 24 tr len 1000
+user 25 tr len 1000
+user 26 tr len 1000
+user 27 tr len 1000
+user 28 tr len 1000
+user 29 tr len 1000
+user 30 tr len 1000
+user 31 tr len 1000
+user 32 tr len 1000
+user 33 tr len 1000
+user 34 tr len 1000
+user 35 tr len 1000
+user 36 tr len 1000
+user 37 tr len 1000
+user 38 tr len 1000
+user 39 tr len 1000
+user 40 tr len 1000
+user 41 tr len 1000
+user 42 tr len 1000
+user 43 tr len 1000
+user 44 tr len 1000
+user 45 tr len 1000
+user 46 tr len 1000
+user 47 tr len 1000
+user 48 tr len 1000
+user 49 tr len 1000
+/home/yunlong/NDSS21-Model-Poisoning/cifar10/sgd.py:109: UserWarning: This overload of add_ is deprecated:
+	add_(Number alpha, Tensor other)
+Consider using one of the following signatures instead:
+	add_(Tensor other, *, Number alpha) (Triggered internally at ../torch/csrc/utils/python_arg_parser.cpp:1630.)
+  p.data.add_(-group['lr'], d_p)
+Bulyan: at our_attack_hessanangle_mean n_at 10 n_mal_sel 8 e 0 | val loss 2.3031 val acc 9.2532 best val_acc 9.253247
+Bulyan: at our_attack_hessanangle_mean n_at 10 n_mal_sel 5 e 25 | val loss 2.2656 val acc 10.3084 best val_acc 18.141234
+Bulyan: at our_attack_hessanangle_mean n_at 10 n_mal_sel 8 e 50 | val loss 2.1861 val acc 15.1177 best val_acc 21.286526
+Bulyan: at our_attack_hessanangle_mean n_at 10 n_mal_sel 10 e 75 | val loss 2.2977 val acc 10.2476 best val_acc 21.286526
+Bulyan: at our_attack_hessanangle_mean n_at 10 n_mal_sel 10 e 100 | val loss 2.3057 val acc 10.0244 best val_acc 21.286526
+Bulyan: at our_attack_hessanangle_mean n_at 10 n_mal_sel 10 e 125 | val loss 2.2287 val acc 17.3701 best val_acc 21.286526
+Bulyan: at our_attack_hessanangle_mean n_at 10 n_mal_sel 10 e 150 | val loss 2.3102 val acc 9.8417 best val_acc 21.286526
+Bulyan: at our_attack_hessanangle_mean n_at 10 n_mal_sel 10 e 175 | val loss 2.3250 val acc 9.7403 best val_acc 21.286526
+Bulyan: at our_attack_hessanangle_mean n_at 10 n_mal_sel 10 e 200 | val loss 2.3039 val acc 10.2881 best val_acc 21.286526
+Bulyan: at our_attack_hessanangle_mean n_at 10 n_mal_sel 10 e 225 | val loss 2.2106 val acc 16.9846 best val_acc 21.286526
+Bulyan: at our_attack_hessanangle_mean n_at 10 n_mal_sel 7 e 250 | val loss 2.2915 val acc 13.9002 best val_acc 21.286526
+Bulyan: at our_attack_hessanangle_mean n_at 10 n_mal_sel 10 e 275 | val loss 2.1172 val acc 18.1412 best val_acc 21.672078
+Bulyan: at our_attack_hessanangle_mean n_at 10 n_mal_sel 7 e 300 | val loss 2.2057 val acc 14.2451 best val_acc 22.504058
+Bulyan: at our_attack_hessanangle_mean n_at 10 n_mal_sel 10 e 325 | val loss 2.2402 val acc 13.4740 best val_acc 22.504058
+Bulyan: at our_attack_hessanangle_mean n_at 10 n_mal_sel 10 e 350 | val loss 2.1071 val acc 16.7411 best val_acc 22.504058
+Bulyan: at our_attack_hessanangle_mean n_at 10 n_mal_sel 9 e 375 | val loss 2.3140 val acc 11.5463 best val_acc 22.504058
+Bulyan: at our_attack_hessanangle_mean n_at 10 n_mal_sel 9 e 400 | val loss 2.3052 val acc 11.9115 best val_acc 22.504058
+Bulyan: at our_attack_hessanangle_mean n_at 10 n_mal_sel 8 e 425 | val loss 2.3010 val acc 10.2679 best val_acc 22.504058
+Bulyan: at our_attack_hessanangle_mean n_at 10 n_mal_sel 2 e 450 | val loss 2.2135 val acc 21.1648 best val_acc 22.504058
+Bulyan: at our_attack_hessanangle_mean n_at 10 n_mal_sel 10 e 475 | val loss 2.2759 val acc 14.9959 best val_acc 22.504058
+Bulyan: at our_attack_hessanangle_mean n_at 10 n_mal_sel 10 e 500 | val loss 2.2715 val acc 12.5203 best val_acc 22.504058
+Bulyan: at our_attack_hessanangle_mean n_at 10 n_mal_sel 8 e 525 | val loss 2.3204 val acc 9.9635 best val_acc 22.504058
+Bulyan: at our_attack_hessanangle_mean n_at 10 n_mal_sel 9 e 550 | val loss 2.3233 val acc 10.9172 best val_acc 22.504058
+Bulyan: at our_attack_hessanangle_mean n_at 10 n_mal_sel 10 e 575 | val loss 2.2975 val acc 11.4042 best val_acc 22.504058
+Bulyan: at our_attack_hessanangle_mean n_at 10 n_mal_sel 8 e 600 | val loss 2.2715 val acc 11.0187 best val_acc 22.504058
+Bulyan: at our_attack_hessanangle_mean n_at 10 n_mal_sel 9 e 625 | val loss 2.0841 val acc 20.2516 best val_acc 22.504058
+Bulyan: at our_attack_hessanangle_mean n_at 10 n_mal_sel 8 e 650 | val loss 2.0738 val acc 18.9935 best val_acc 22.504058
+Bulyan: at our_attack_hessanangle_mean n_at 10 n_mal_sel 8 e 675 | val loss 3.3208 val acc 13.2914 best val_acc 22.524351
+Bulyan: at our_attack_hessanangle_mean n_at 10 n_mal_sel 10 e 700 | val loss 2.2961 val acc 9.8011 best val_acc 22.524351
+Bulyan: at our_attack_hessanangle_mean n_at 10 n_mal_sel 8 e 725 | val loss 2.1577 val acc 18.9326 best val_acc 22.524351
+Bulyan: at our_attack_hessanangle_mean n_at 10 n_mal_sel 10 e 750 | val loss 2.0755 val acc 17.5528 best val_acc 22.524351
+Bulyan: at our_attack_hessanangle_mean n_at 10 n_mal_sel 9 e 775 | val loss 2.1528 val acc 20.3531 best val_acc 22.646104
+Bulyan: at our_attack_hessanangle_mean n_at 10 n_mal_sel 8 e 800 | val loss 2.0886 val acc 20.7589 best val_acc 22.706981
+Bulyan: at our_attack_hessanangle_mean n_at 10 n_mal_sel 8 e 825 | val loss 2.3817 val acc 11.7492 best val_acc 22.706981
+Bulyan: at our_attack_hessanangle_mean n_at 10 n_mal_sel 9 e 850 | val loss 2.1071 val acc 18.1615 best val_acc 22.706981
+val loss 6693.440633 too high
+change new seed now epoch: 870
+now use seed: 123
+Files already downloaded and verified
+Files already downloaded and verified
+total data len:  60000
+total data len:  60000
+total tr len 50000 | val len 5000 | test len 5000
+user 0 tr len 1000
+user 1 tr len 1000
+user 2 tr len 1000
+user 3 tr len 1000
+user 4 tr len 1000
+user 5 tr len 1000
+user 6 tr len 1000
+user 7 tr len 1000
+user 8 tr len 1000
+user 9 tr len 1000
+user 10 tr len 1000
+user 11 tr len 1000
+user 12 tr len 1000
+user 13 tr len 1000
+user 14 tr len 1000
+user 15 tr len 1000
+user 16 tr len 1000
+user 17 tr len 1000
+user 18 tr len 1000
+user 19 tr len 1000
+user 20 tr len 1000
+user 21 tr len 1000
+user 22 tr len 1000
+user 23 tr len 1000
+user 24 tr len 1000
+user 25 tr len 1000
+user 26 tr len 1000
+user 27 tr len 1000
+user 28 tr len 1000
+user 29 tr len 1000
+user 30 tr len 1000
+user 31 tr len 1000
+user 32 tr len 1000
+user 33 tr len 1000
+user 34 tr len 1000
+user 35 tr len 1000
+user 36 tr len 1000
+user 37 tr len 1000
+user 38 tr len 1000
+user 39 tr len 1000
+user 40 tr len 1000
+user 41 tr len 1000
+user 42 tr len 1000
+user 43 tr len 1000
+user 44 tr len 1000
+user 45 tr len 1000
+user 46 tr len 1000
+user 47 tr len 1000
+user 48 tr len 1000
+user 49 tr len 1000
+/home/yunlong/NDSS21-Model-Poisoning/cifar10/sgd.py:109: UserWarning: This overload of add_ is deprecated:
+	add_(Number alpha, Tensor other)
+Consider using one of the following signatures instead:
+	add_(Tensor other, *, Number alpha) (Triggered internally at ../torch/csrc/utils/python_arg_parser.cpp:1630.)
+  p.data.add_(-group['lr'], d_p)
+Median: at our_attack_hessanangle_mean n_at 10  e 0 | val loss 2.3031 val acc 9.2938 best val_acc 9.293831
+Median: at our_attack_hessanangle_mean n_at 10  e 25 | val loss 2.1987 val acc 17.0252 best val_acc 18.202110
+Median: at our_attack_hessanangle_mean n_at 10  e 50 | val loss 2.2907 val acc 13.0073 best val_acc 22.869318
+Median: at our_attack_hessanangle_mean n_at 10  e 75 | val loss 2.2977 val acc 13.0073 best val_acc 22.869318
+Median: at our_attack_hessanangle_mean n_at 10  e 100 | val loss 2.2843 val acc 11.2216 best val_acc 22.869318
+Median: at our_attack_hessanangle_mean n_at 10  e 125 | val loss 2.2093 val acc 17.6339 best val_acc 22.869318
+Median: at our_attack_hessanangle_mean n_at 10  e 150 | val loss 2.1825 val acc 17.5122 best val_acc 22.869318
+Median: at our_attack_hessanangle_mean n_at 10  e 175 | val loss 2.3006 val acc 10.6534 best val_acc 24.005682
+Median: at our_attack_hessanangle_mean n_at 10  e 200 | val loss 2.1321 val acc 18.8312 best val_acc 24.350649
+Median: at our_attack_hessanangle_mean n_at 10  e 225 | val loss 2.1642 val acc 18.5268 best val_acc 25.892857
+Median: at our_attack_hessanangle_mean n_at 10  e 250 | val loss 2.1129 val acc 19.7849 best val_acc 28.165584
+Median: at our_attack_hessanangle_mean n_at 10  e 275 | val loss 2.2129 val acc 15.1380 best val_acc 28.165584
+Median: at our_attack_hessanangle_mean n_at 10  e 300 | val loss 1.9943 val acc 24.1477 best val_acc 28.165584
+Median: at our_attack_hessanangle_mean n_at 10  e 325 | val loss 2.0374 val acc 23.0317 best val_acc 28.165584
+Median: at our_attack_hessanangle_mean n_at 10  e 350 | val loss 2.3015 val acc 9.8823 best val_acc 31.351461
+Median: at our_attack_hessanangle_mean n_at 10  e 375 | val loss 2.0077 val acc 24.6144 best val_acc 31.351461
+Median: at our_attack_hessanangle_mean n_at 10  e 400 | val loss 2.0292 val acc 25.5073 best val_acc 31.351461
+Median: at our_attack_hessanangle_mean n_at 10  e 425 | val loss 2.2921 val acc 13.4131 best val_acc 31.351461
+Median: at our_attack_hessanangle_mean n_at 10  e 450 | val loss 2.0512 val acc 24.5130 best val_acc 31.351461
+Median: at our_attack_hessanangle_mean n_at 10  e 475 | val loss 2.3113 val acc 11.4651 best val_acc 31.351461
+Median: at our_attack_hessanangle_mean n_at 10  e 500 | val loss 1.9651 val acc 24.5739 best val_acc 31.351461
+Median: at our_attack_hessanangle_mean n_at 10  e 525 | val loss 1.9670 val acc 22.5041 best val_acc 31.351461
+Median: at our_attack_hessanangle_mean n_at 10  e 550 | val loss 2.2387 val acc 15.1380 best val_acc 31.351461
+Median: at our_attack_hessanangle_mean n_at 10  e 575 | val loss 1.9256 val acc 27.4554 best val_acc 31.351461
+Median: at our_attack_hessanangle_mean n_at 10  e 600 | val loss 2.2867 val acc 13.5958 best val_acc 32.041396
+Median: at our_attack_hessanangle_mean n_at 10  e 625 | val loss 2.3981 val acc 11.6071 best val_acc 32.041396
+Median: at our_attack_hessanangle_mean n_at 10  e 650 | val loss 2.3060 val acc 13.7175 best val_acc 32.041396
+Median: at our_attack_hessanangle_mean n_at 10  e 675 | val loss 2.2297 val acc 13.8393 best val_acc 32.041396
+Median: at our_attack_hessanangle_mean n_at 10  e 700 | val loss 2.3199 val acc 11.6680 best val_acc 32.041396
+Median: at our_attack_hessanangle_mean n_at 10  e 725 | val loss 2.1662 val acc 20.0081 best val_acc 32.041396
+Median: at our_attack_hessanangle_mean n_at 10  e 750 | val loss 1.9745 val acc 22.9302 best val_acc 32.041396
+Median: at our_attack_hessanangle_mean n_at 10  e 775 | val loss 2.0600 val acc 25.0000 best val_acc 32.041396
+Median: at our_attack_hessanangle_mean n_at 10  e 800 | val loss 2.0558 val acc 22.4229 best val_acc 32.041396
+Median: at our_attack_hessanangle_mean n_at 10  e 825 | val loss 2.2042 val acc 15.3815 best val_acc 32.041396
+Median: at our_attack_hessanangle_mean n_at 10  e 850 | val loss 2.1664 val acc 17.8166 best val_acc 32.041396
+Median: at our_attack_hessanangle_mean n_at 10  e 875 | val loss 1.9859 val acc 26.9278 best val_acc 32.041396
+Median: at our_attack_hessanangle_mean n_at 10  e 900 | val loss 2.0173 val acc 22.9302 best val_acc 32.041396
+Median: at our_attack_hessanangle_mean n_at 10  e 925 | val loss 2.0083 val acc 21.9156 best val_acc 32.041396
+Median: at our_attack_hessanangle_mean n_at 10  e 950 | val loss 1.8639 val acc 32.5893 best val_acc 32.832792
+Median: at our_attack_hessanangle_mean n_at 10  e 975 | val loss 2.2879 val acc 10.4099 best val_acc 32.832792
+New learnin rate  0.25
+Median: at our_attack_hessanangle_mean n_at 10  e 1000 | val loss 2.0418 val acc 22.8693 best val_acc 32.832792
+Median: at our_attack_hessanangle_mean n_at 10  e 1025 | val loss 1.7635 val acc 32.9545 best val_acc 37.094156
+Median: at our_attack_hessanangle_mean n_at 10  e 1050 | val loss 1.8512 val acc 35.0244 best val_acc 39.184253
+Median: at our_attack_hessanangle_mean n_at 10  e 1075 | val loss 2.3039 val acc 21.0430 best val_acc 39.975649
+Median: at our_attack_hessanangle_mean n_at 10  e 1100 | val loss 1.8581 val acc 34.0706 best val_acc 39.975649
+Median: at our_attack_hessanangle_mean n_at 10  e 1125 | val loss 2.0539 val acc 27.5365 best val_acc 39.975649
+Median: at our_attack_hessanangle_mean n_at 10  e 1150 | val loss 2.3303 val acc 22.8896 best val_acc 39.975649
+Median: at our_attack_hessanangle_mean n_at 10  e 1175 | val loss 1.8956 val acc 25.5276 best val_acc 39.975649
+Median: at our_attack_hessanangle_mean n_at 10  e 1199 | val loss 2.1857 val acc 25.6494 best val_acc 39.975649
+Median: at our_attack_hessanangle_mean n_at 10  e 1200 | val loss 2.0419 val acc 21.3880 best val_acc 39.975649
+now use seed: 123
+Files already downloaded and verified
+Files already downloaded and verified
+total data len:  60000
+total data len:  60000
+total tr len 50000 | val len 5000 | test len 5000
+user 0 tr len 1000
+user 1 tr len 1000
+user 2 tr len 1000
+user 3 tr len 1000
+user 4 tr len 1000
+user 5 tr len 1000
+user 6 tr len 1000
+user 7 tr len 1000
+user 8 tr len 1000
+user 9 tr len 1000
+user 10 tr len 1000
+user 11 tr len 1000
+user 12 tr len 1000
+user 13 tr len 1000
+user 14 tr len 1000
+user 15 tr len 1000
+user 16 tr len 1000
+user 17 tr len 1000
+user 18 tr len 1000
+user 19 tr len 1000
+user 20 tr len 1000
+user 21 tr len 1000
+user 22 tr len 1000
+user 23 tr len 1000
+user 24 tr len 1000
+user 25 tr len 1000
+user 26 tr len 1000
+user 27 tr len 1000
+user 28 tr len 1000
+user 29 tr len 1000
+user 30 tr len 1000
+user 31 tr len 1000
+user 32 tr len 1000
+user 33 tr len 1000
+user 34 tr len 1000
+user 35 tr len 1000
+user 36 tr len 1000
+user 37 tr len 1000
+user 38 tr len 1000
+user 39 tr len 1000
+user 40 tr len 1000
+user 41 tr len 1000
+user 42 tr len 1000
+user 43 tr len 1000
+user 44 tr len 1000
+user 45 tr len 1000
+user 46 tr len 1000
+user 47 tr len 1000
+user 48 tr len 1000
+user 49 tr len 1000
+/home/yunlong/NDSS21-Model-Poisoning/cifar10/sgd.py:109: UserWarning: This overload of add_ is deprecated:
+	add_(Number alpha, Tensor other)
+Consider using one of the following signatures instead:
+	add_(Tensor other, *, Number alpha) (Triggered internally at ../torch/csrc/utils/python_arg_parser.cpp:1630.)
+  p.data.add_(-group['lr'], d_p)
+tr_mean: at our_attack_hessanangle_mean n_at 10  e 0 | val loss 2.3031 val acc 9.4156 best val_acc 9.415584
+tr_mean: at our_attack_hessanangle_mean n_at 10  e 25 | val loss 2.2840 val acc 9.7403 best val_acc 18.587662
+tr_mean: at our_attack_hessanangle_mean n_at 10  e 50 | val loss 2.2909 val acc 11.4042 best val_acc 19.987825
+tr_mean: at our_attack_hessanangle_mean n_at 10  e 75 | val loss 2.1811 val acc 14.7119 best val_acc 20.495130
+tr_mean: at our_attack_hessanangle_mean n_at 10  e 100 | val loss 2.4554 val acc 16.2338 best val_acc 23.011364
+tr_mean: at our_attack_hessanangle_mean n_at 10  e 125 | val loss 2.1170 val acc 18.0195 best val_acc 23.011364
+tr_mean: at our_attack_hessanangle_mean n_at 10  e 150 | val loss 2.0576 val acc 24.5333 best val_acc 24.533279
+tr_mean: at our_attack_hessanangle_mean n_at 10  e 175 | val loss 2.1241 val acc 18.0601 best val_acc 26.055195
+tr_mean: at our_attack_hessanangle_mean n_at 10  e 200 | val loss 2.0322 val acc 23.1737 best val_acc 27.150974
+tr_mean: at our_attack_hessanangle_mean n_at 10  e 225 | val loss 1.9473 val acc 26.3190 best val_acc 28.429383
+tr_mean: at our_attack_hessanangle_mean n_at 10  e 250 | val loss 2.1661 val acc 16.7817 best val_acc 29.484578
+tr_mean: at our_attack_hessanangle_mean n_at 10  e 275 | val loss 1.9372 val acc 27.6177 best val_acc 29.484578
+tr_mean: at our_attack_hessanangle_mean n_at 10  e 300 | val loss 1.9757 val acc 23.5187 best val_acc 29.484578
+tr_mean: at our_attack_hessanangle_mean n_at 10  e 325 | val loss 2.5099 val acc 13.6769 best val_acc 30.823864
+tr_mean: at our_attack_hessanangle_mean n_at 10  e 350 | val loss 2.1237 val acc 18.1615 best val_acc 30.823864
+tr_mean: at our_attack_hessanangle_mean n_at 10  e 375 | val loss 2.0489 val acc 26.1161 best val_acc 30.823864
+tr_mean: at our_attack_hessanangle_mean n_at 10  e 400 | val loss 1.8731 val acc 30.4789 best val_acc 33.137175
+tr_mean: at our_attack_hessanangle_mean n_at 10  e 425 | val loss 2.3236 val acc 24.9594 best val_acc 34.983766
+tr_mean: at our_attack_hessanangle_mean n_at 10  e 450 | val loss 2.3539 val acc 9.2127 best val_acc 34.983766
+tr_mean: at our_attack_hessanangle_mean n_at 10  e 475 | val loss 2.0962 val acc 20.4140 best val_acc 34.983766
+tr_mean: at our_attack_hessanangle_mean n_at 10  e 500 | val loss 2.1168 val acc 21.9359 best val_acc 34.983766
+tr_mean: at our_attack_hessanangle_mean n_at 10  e 525 | val loss 1.9909 val acc 28.0438 best val_acc 34.983766
+tr_mean: at our_attack_hessanangle_mean n_at 10  e 550 | val loss 2.4847 val acc 19.7037 best val_acc 35.856331
+tr_mean: at our_attack_hessanangle_mean n_at 10  e 575 | val loss 1.7416 val acc 35.0041 best val_acc 35.856331
+tr_mean: at our_attack_hessanangle_mean n_at 10  e 600 | val loss 2.2847 val acc 19.5008 best val_acc 35.856331
+tr_mean: at our_attack_hessanangle_mean n_at 10  e 625 | val loss 2.0134 val acc 26.4407 best val_acc 36.952110
+tr_mean: at our_attack_hessanangle_mean n_at 10  e 650 | val loss 1.7943 val acc 32.4472 best val_acc 36.952110
+tr_mean: at our_attack_hessanangle_mean n_at 10  e 675 | val loss 2.4408 val acc 18.8312 best val_acc 38.656656
+tr_mean: at our_attack_hessanangle_mean n_at 10  e 700 | val loss 1.9200 val acc 24.8580 best val_acc 38.656656
+tr_mean: at our_attack_hessanangle_mean n_at 10  e 725 | val loss 1.8885 val acc 31.8588 best val_acc 38.656656
+tr_mean: at our_attack_hessanangle_mean n_at 10  e 750 | val loss 1.8889 val acc 28.1453 best val_acc 38.656656
+tr_mean: at our_attack_hessanangle_mean n_at 10  e 775 | val loss 2.0110 val acc 24.4318 best val_acc 38.656656
+tr_mean: at our_attack_hessanangle_mean n_at 10  e 800 | val loss 2.2092 val acc 21.1242 best val_acc 38.656656
+val loss 92547.003272 too high
+change new seed now epoch: 808
+now use seed: 123
+Files already downloaded and verified
+Files already downloaded and verified
+total data len:  60000
+total data len:  60000
+total tr len 50000 | val len 5000 | test len 5000
+user 0 tr len 1000
+user 1 tr len 1000
+user 2 tr len 1000
+user 3 tr len 1000
+user 4 tr len 1000
+user 5 tr len 1000
+user 6 tr len 1000
+user 7 tr len 1000
+user 8 tr len 1000
+user 9 tr len 1000
+user 10 tr len 1000
+user 11 tr len 1000
+user 12 tr len 1000
+user 13 tr len 1000
+user 14 tr len 1000
+user 15 tr len 1000
+user 16 tr len 1000
+user 17 tr len 1000
+user 18 tr len 1000
+user 19 tr len 1000
+user 20 tr len 1000
+user 21 tr len 1000
+user 22 tr len 1000
+user 23 tr len 1000
+user 24 tr len 1000
+user 25 tr len 1000
+user 26 tr len 1000
+user 27 tr len 1000
+user 28 tr len 1000
+user 29 tr len 1000
+user 30 tr len 1000
+user 31 tr len 1000
+user 32 tr len 1000
+user 33 tr len 1000
+user 34 tr len 1000
+user 35 tr len 1000
+user 36 tr len 1000
+user 37 tr len 1000
+user 38 tr len 1000
+user 39 tr len 1000
+user 40 tr len 1000
+user 41 tr len 1000
+user 42 tr len 1000
+user 43 tr len 1000
+user 44 tr len 1000
+user 45 tr len 1000
+user 46 tr len 1000
+user 47 tr len 1000
+user 48 tr len 1000
+user 49 tr len 1000
+/home/yunlong/NDSS21-Model-Poisoning/cifar10/sgd.py:109: UserWarning: This overload of add_ is deprecated:
+	add_(Number alpha, Tensor other)
+Consider using one of the following signatures instead:
+	add_(Tensor other, *, Number alpha) (Triggered internally at ../torch/csrc/utils/python_arg_parser.cpp:1630.)
+  p.data.add_(-group['lr'], d_p)
+FedAvg: at our_attack_hessanangle_mean n_at 10  e 0 | val loss 2.3032 val acc 9.2938 best val_acc 9.293831
+FedAvg: at our_attack_hessanangle_mean n_at 10  e 25 | val loss 2.2954 val acc 10.1258 best val_acc 20.454545
+FedAvg: at our_attack_hessanangle_mean n_at 10  e 50 | val loss 2.3105 val acc 10.9172 best val_acc 23.498377
+FedAvg: at our_attack_hessanangle_mean n_at 10  e 75 | val loss 2.1087 val acc 18.8109 best val_acc 23.498377
+FedAvg: at our_attack_hessanangle_mean n_at 10  e 100 | val loss 2.1284 val acc 16.1323 best val_acc 23.498377
+FedAvg: at our_attack_hessanangle_mean n_at 10  e 125 | val loss 2.0980 val acc 21.8547 best val_acc 23.498377
+FedAvg: at our_attack_hessanangle_mean n_at 10  e 150 | val loss 2.0971 val acc 19.6023 best val_acc 24.350649
+FedAvg: at our_attack_hessanangle_mean n_at 10  e 175 | val loss 2.2263 val acc 16.2135 best val_acc 27.678571
+FedAvg: at our_attack_hessanangle_mean n_at 10  e 200 | val loss 3.8848 val acc 14.6916 best val_acc 27.678571
+FedAvg: at our_attack_hessanangle_mean n_at 10  e 225 | val loss 2.2489 val acc 15.8076 best val_acc 27.678571
+FedAvg: at our_attack_hessanangle_mean n_at 10  e 250 | val loss 2.1363 val acc 18.3036 best val_acc 27.678571
+FedAvg: at our_attack_hessanangle_mean n_at 10  e 275 | val loss 2.0861 val acc 19.2370 best val_acc 27.678571
+FedAvg: at our_attack_hessanangle_mean n_at 10  e 300 | val loss 1.9651 val acc 24.7565 best val_acc 27.678571
+FedAvg: at our_attack_hessanangle_mean n_at 10  e 325 | val loss 2.0927 val acc 19.5617 best val_acc 27.678571
+FedAvg: at our_attack_hessanangle_mean n_at 10  e 350 | val loss 2.0240 val acc 23.1331 best val_acc 27.678571
+FedAvg: at our_attack_hessanangle_mean n_at 10  e 375 | val loss 2.1859 val acc 18.4456 best val_acc 27.678571
+FedAvg: at our_attack_hessanangle_mean n_at 10  e 400 | val loss 1.9217 val acc 27.8003 best val_acc 27.982955
+FedAvg: at our_attack_hessanangle_mean n_at 10  e 425 | val loss 1.9495 val acc 26.7654 best val_acc 31.960227
+FedAvg: at our_attack_hessanangle_mean n_at 10  e 450 | val loss 1.8850 val acc 28.3279 best val_acc 31.960227
+FedAvg: at our_attack_hessanangle_mean n_at 10  e 475 | val loss 1.8169 val acc 33.1575 best val_acc 34.293831
+FedAvg: at our_attack_hessanangle_mean n_at 10  e 500 | val loss 2.1554 val acc 24.3304 best val_acc 35.856331
+FedAvg: at our_attack_hessanangle_mean n_at 10  e 525 | val loss 1.8878 val acc 28.3888 best val_acc 37.824675
+FedAvg: at our_attack_hessanangle_mean n_at 10  e 550 | val loss 1.8417 val acc 33.5633 best val_acc 37.824675
+FedAvg: at our_attack_hessanangle_mean n_at 10  e 575 | val loss 1.7819 val acc 32.9140 best val_acc 40.056818
+FedAvg: at our_attack_hessanangle_mean n_at 10  e 600 | val loss 1.8579 val acc 34.7200 best val_acc 40.056818
+FedAvg: at our_attack_hessanangle_mean n_at 10  e 625 | val loss 1.8391 val acc 35.7346 best val_acc 40.056818
+FedAvg: at our_attack_hessanangle_mean n_at 10  e 650 | val loss 1.9153 val acc 29.2005 best val_acc 40.056818
+FedAvg: at our_attack_hessanangle_mean n_at 10  e 675 | val loss 1.9363 val acc 28.3076 best val_acc 40.056818
+FedAvg: at our_attack_hessanangle_mean n_at 10  e 700 | val loss 2.7522 val acc 11.7289 best val_acc 40.056818
+FedAvg: at our_attack_hessanangle_mean n_at 10  e 725 | val loss 2.2210 val acc 16.4976 best val_acc 40.056818
+FedAvg: at our_attack_hessanangle_mean n_at 10  e 750 | val loss 2.2049 val acc 15.2192 best val_acc 40.056818
+FedAvg: at our_attack_hessanangle_mean n_at 10  e 775 | val loss 2.0663 val acc 20.2313 best val_acc 40.056818
+FedAvg: at our_attack_hessanangle_mean n_at 10  e 800 | val loss 2.2223 val acc 20.8198 best val_acc 40.056818
+FedAvg: at our_attack_hessanangle_mean n_at 10  e 825 | val loss 2.2451 val acc 15.4018 best val_acc 40.056818
+FedAvg: at our_attack_hessanangle_mean n_at 10  e 850 | val loss 2.1759 val acc 20.6372 best val_acc 40.056818
+FedAvg: at our_attack_hessanangle_mean n_at 10  e 875 | val loss 2.0256 val acc 26.0755 best val_acc 40.056818
+FedAvg: at our_attack_hessanangle_mean n_at 10  e 900 | val loss 1.7742 val acc 34.5373 best val_acc 40.056818
+FedAvg: at our_attack_hessanangle_mean n_at 10  e 925 | val loss 2.1652 val acc 29.5455 best val_acc 40.056818
+FedAvg: at our_attack_hessanangle_mean n_at 10  e 950 | val loss 2.4853 val acc 26.6640 best val_acc 40.056818
+FedAvg: at our_attack_hessanangle_mean n_at 10  e 975 | val loss 1.8563 val acc 31.4732 best val_acc 40.056818
+New learnin rate  0.25
+FedAvg: at our_attack_hessanangle_mean n_at 10  e 1000 | val loss 1.8005 val acc 36.5057 best val_acc 40.056818
+FedAvg: at our_attack_hessanangle_mean n_at 10  e 1025 | val loss 1.5477 val acc 44.0341 best val_acc 45.454545
+FedAvg: at our_attack_hessanangle_mean n_at 10  e 1050 | val loss 1.5705 val acc 42.9992 best val_acc 45.840097
+FedAvg: at our_attack_hessanangle_mean n_at 10  e 1075 | val loss 1.4757 val acc 46.0633 best val_acc 46.712662
+FedAvg: at our_attack_hessanangle_mean n_at 10  e 1100 | val loss 2.0620 val acc 29.5657 best val_acc 46.996753
+FedAvg: at our_attack_hessanangle_mean n_at 10  e 1125 | val loss 1.6591 val acc 39.3466 best val_acc 46.996753
+FedAvg: at our_attack_hessanangle_mean n_at 10  e 1150 | val loss 1.5562 val acc 43.9935 best val_acc 47.179383
+FedAvg: at our_attack_hessanangle_mean n_at 10  e 1175 | val loss 1.6547 val acc 37.9058 best val_acc 48.315747
+FedAvg: at our_attack_hessanangle_mean n_at 10  e 1199 | val loss 1.5100 val acc 45.6778 best val_acc 48.315747
+FedAvg: at our_attack_hessanangle_mean n_at 10  e 1200 | val loss 1.6353 val acc 40.8888 best val_acc 48.315747
+now use seed: 123
+Files already downloaded and verified
+Files already downloaded and verified
+total data len:  60000
+total data len:  60000
+total tr len 50000 | val len 5000 | test len 5000
+user 0 tr len 1000
+user 1 tr len 1000
+user 2 tr len 1000
+user 3 tr len 1000
+user 4 tr len 1000
+user 5 tr len 1000
+user 6 tr len 1000
+user 7 tr len 1000
+user 8 tr len 1000
+user 9 tr len 1000
+user 10 tr len 1000
+user 11 tr len 1000
+user 12 tr len 1000
+user 13 tr len 1000
+user 14 tr len 1000
+user 15 tr len 1000
+user 16 tr len 1000
+user 17 tr len 1000
+user 18 tr len 1000
+user 19 tr len 1000
+user 20 tr len 1000
+user 21 tr len 1000
+user 22 tr len 1000
+user 23 tr len 1000
+user 24 tr len 1000
+user 25 tr len 1000
+user 26 tr len 1000
+user 27 tr len 1000
+user 28 tr len 1000
+user 29 tr len 1000
+user 30 tr len 1000
+user 31 tr len 1000
+user 32 tr len 1000
+user 33 tr len 1000
+user 34 tr len 1000
+user 35 tr len 1000
+user 36 tr len 1000
+user 37 tr len 1000
+user 38 tr len 1000
+user 39 tr len 1000
+user 40 tr len 1000
+user 41 tr len 1000
+user 42 tr len 1000
+user 43 tr len 1000
+user 44 tr len 1000
+user 45 tr len 1000
+user 46 tr len 1000
+user 47 tr len 1000
+user 48 tr len 1000
+user 49 tr len 1000
+/home/yunlong/NDSS21-Model-Poisoning/cifar10/sgd.py:109: UserWarning: This overload of add_ is deprecated:
+	add_(Number alpha, Tensor other)
+Consider using one of the following signatures instead:
+	add_(Tensor other, *, Number alpha) (Triggered internally at ../torch/csrc/utils/python_arg_parser.cpp:1630.)
+  p.data.add_(-group['lr'], d_p)
+Norm_bounding: at our_attack_hessanangle_mean n_at 10  e 0 | val loss 2.3032 val acc 9.2938 best val_acc 9.293831
+Norm_bounding: at our_attack_hessanangle_mean n_at 10  e 25 | val loss 2.2927 val acc 9.7403 best val_acc 19.074675
+Norm_bounding: at our_attack_hessanangle_mean n_at 10  e 50 | val loss 2.2200 val acc 15.4424 best val_acc 20.474838
+Norm_bounding: at our_attack_hessanangle_mean n_at 10  e 75 | val loss 2.1436 val acc 17.2687 best val_acc 23.031656
+Norm_bounding: at our_attack_hessanangle_mean n_at 10  e 100 | val loss 2.2165 val acc 15.3612 best val_acc 25.446429
+Norm_bounding: at our_attack_hessanangle_mean n_at 10  e 125 | val loss 2.2312 val acc 19.1558 best val_acc 25.446429
+Norm_bounding: at our_attack_hessanangle_mean n_at 10  e 150 | val loss 1.9763 val acc 23.5390 best val_acc 25.446429
+Norm_bounding: at our_attack_hessanangle_mean n_at 10  e 175 | val loss 1.9977 val acc 25.5885 best val_acc 28.084416
+Norm_bounding: at our_attack_hessanangle_mean n_at 10  e 200 | val loss 2.1876 val acc 19.8052 best val_acc 29.119318
+Norm_bounding: at our_attack_hessanangle_mean n_at 10  e 225 | val loss 1.9269 val acc 26.5016 best val_acc 29.119318
+Norm_bounding: at our_attack_hessanangle_mean n_at 10  e 250 | val loss 2.0786 val acc 19.2776 best val_acc 29.484578
+Norm_bounding: at our_attack_hessanangle_mean n_at 10  e 275 | val loss 1.9172 val acc 27.9830 best val_acc 31.310877
+Norm_bounding: at our_attack_hessanangle_mean n_at 10  e 300 | val loss 1.8883 val acc 28.2062 best val_acc 34.740260
+Norm_bounding: at our_attack_hessanangle_mean n_at 10  e 325 | val loss 2.2095 val acc 13.6769 best val_acc 34.740260
+Norm_bounding: at our_attack_hessanangle_mean n_at 10  e 350 | val loss 1.8504 val acc 30.7833 best val_acc 34.862013
+Norm_bounding: at our_attack_hessanangle_mean n_at 10  e 375 | val loss 1.7383 val acc 36.4651 best val_acc 38.210227
+Norm_bounding: at our_attack_hessanangle_mean n_at 10  e 400 | val loss 1.9414 val acc 29.2411 best val_acc 39.123377
+Norm_bounding: at our_attack_hessanangle_mean n_at 10  e 425 | val loss 1.6516 val acc 36.1201 best val_acc 39.123377
+Norm_bounding: at our_attack_hessanangle_mean n_at 10  e 450 | val loss 1.7198 val acc 37.0739 best val_acc 40.969968
+Norm_bounding: at our_attack_hessanangle_mean n_at 10  e 475 | val loss 1.9939 val acc 26.1972 best val_acc 42.471591
+Norm_bounding: at our_attack_hessanangle_mean n_at 10  e 500 | val loss 1.6225 val acc 39.5901 best val_acc 42.471591
+Norm_bounding: at our_attack_hessanangle_mean n_at 10  e 525 | val loss 1.6633 val acc 39.5089 best val_acc 43.709416
+Norm_bounding: at our_attack_hessanangle_mean n_at 10  e 550 | val loss 1.5725 val acc 43.5268 best val_acc 43.709416
+Norm_bounding: at our_attack_hessanangle_mean n_at 10  e 575 | val loss 1.5186 val acc 44.0747 best val_acc 44.439935
+Norm_bounding: at our_attack_hessanangle_mean n_at 10  e 600 | val loss 1.8996 val acc 32.9951 best val_acc 44.825487
+Norm_bounding: at our_attack_hessanangle_mean n_at 10  e 625 | val loss 1.7016 val acc 40.9700 best val_acc 46.732955
+Norm_bounding: at our_attack_hessanangle_mean n_at 10  e 650 | val loss 2.0286 val acc 24.6956 best val_acc 47.504058
+Norm_bounding: at our_attack_hessanangle_mean n_at 10  e 675 | val loss 2.0529 val acc 25.7914 best val_acc 47.504058
+Norm_bounding: at our_attack_hessanangle_mean n_at 10  e 700 | val loss 2.1194 val acc 20.1502 best val_acc 47.504058
+Norm_bounding: at our_attack_hessanangle_mean n_at 10  e 725 | val loss 2.1737 val acc 23.5390 best val_acc 47.504058
+Norm_bounding: at our_attack_hessanangle_mean n_at 10  e 750 | val loss 1.6364 val acc 40.8888 best val_acc 47.504058
+Norm_bounding: at our_attack_hessanangle_mean n_at 10  e 775 | val loss 1.8727 val acc 37.2768 best val_acc 47.504058
+Norm_bounding: at our_attack_hessanangle_mean n_at 10  e 800 | val loss 1.4902 val acc 47.2606 best val_acc 47.767857
+Norm_bounding: at our_attack_hessanangle_mean n_at 10  e 825 | val loss 1.5766 val acc 40.8076 best val_acc 47.767857
+Norm_bounding: at our_attack_hessanangle_mean n_at 10  e 850 | val loss 1.6570 val acc 38.7784 best val_acc 47.767857
+Norm_bounding: at our_attack_hessanangle_mean n_at 10  e 875 | val loss 1.6328 val acc 42.3498 best val_acc 47.767857
+Norm_bounding: at our_attack_hessanangle_mean n_at 10  e 900 | val loss 1.6583 val acc 41.3555 best val_acc 49.066558
+val loss 16554.810826 too high
+change new seed now epoch: 920
+                   Attack Type        Defense  ...  Best Global Accuracy  epoch_num
+0  our_attack_hessanangle_mean         Bulyan  ...             22.706981        870
+1  our_attack_hessanangle_mean         FedAvg  ...             48.315747       1201
+2  our_attack_hessanangle_mean         Median  ...             39.975649       1201
+3  our_attack_hessanangle_mean     Multi_krum  ...             30.154221        393
+4  our_attack_hessanangle_mean  Norm_bounding  ...             50.324675        920
+5  our_attack_hessanangle_mean           krum  ...             26.481331        611
+6  our_attack_hessanangle_mean        tr_mean  ...             38.656656        808
+
+[7 rows x 7 columns]
+Experiment Finished Successfully
