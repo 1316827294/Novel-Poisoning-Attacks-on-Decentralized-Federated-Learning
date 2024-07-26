@@ -2,6 +2,31 @@
 Master Project (Master Projekt) for Yunlong Li and Runxi Cui
 
 
+This master’s project report explores the design and prototypical implementation of model
+poisoning attacks in Distributed Federated Learning (DFL) systems. Federated Learn-
+ing is a distributed machine learning framework that enables multiple data owners to
+collaboratively train models without sharing their private data. However, this system is
+vulnerable to model poisoning attacks, where malicious participants introduce harmful
+updates to degrade the model’s performance.
+The focus of this research is to explore how to intelligently enhance the effectiveness of
+poisoning attacks. It requires a deep understanding of the working mechanisms of DFL
+to identify and exploit potential weaknesses. The project adopts a multi-faceted research
+approach, including assessing the security of DFL systems, constructing and validating
+attack models, and testing their effectiveness in both simulated and real environments.
+The main contributions of this project include the development of new attack strategies
+based on cosine similarity, maximum eigenvalue, and Fisher angle. These strategies aim
+to bypass advanced aggregation algorithms and degrade the quality of the global model.
+Additionally, the project integrates these strategies into the Fedstellar platform and eval-
+uates their performance using various metrics.
+The research results reveal vulnerabilities in current DFL systems and provide theoretical
+and practical insights for building more secure and reliable models.
+iii
+
+
+
+
+
+
 keyword:poisoning attack 
 【1】https://ieeexplore.ieee.org/document/9767718
 【2】https://ieeexplore.ieee.org/document/10105919
